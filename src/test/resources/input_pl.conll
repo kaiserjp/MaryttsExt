@@ -1,0 +1,6 @@
+1	Eugeniusz	_	_	NN	_	dsyntRel=I|spos=NN	_	2	_	subj	_	_	_
+2	budzi	_	_	VB	_	thematicity=rheme|spos=VV	_	0	_	ROOT	_	_	_
+3	się	_	_	reflexive_pronoun	_	spos=reflexive_pronoun	_	2	_	refl	_	_	_
+4	o	_	_	IN	_	dsyntRel=ATTR|spos=preposition	_	2	_	adjunct	_	_	_
+5	8 rano	_	_	NN	_	dsyntRel=II|spos=NN	_	4	_	comp	_	_	_
+6	.	_	_	_	_	_	_	2	_	punc	_	_	_

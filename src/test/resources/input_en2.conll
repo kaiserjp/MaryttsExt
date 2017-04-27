@@ -1,0 +1,3 @@
+1	Hellow	_	_	DT	_	spos=determiner|thematicity=theme	_	2	_	det	_	_	_
+2	world	_	_	NN	_	spos=noun|dsyntRel=I|thematicity=theme	_	10	_	subj	_	_	_
+14	.	_	_	_	_	_	_	2	_	punc	_	_	_

@@ -1,0 +1,13 @@
+1	Yardımcı	_	_	NN	_	dsyntRel=I|spos=NN	_	2	_	subj	_	_	_
+2	KRISTINA	_	_	VB	_	thematicity=rheme|spos=VV	_	0	_	ROOT	_	_	_
+3	sayesinde	_	_	reflexive_pronoun	_	spos=reflexive_pronoun	_	2	_	refl	_	_	_
+4	olası	_	_	IN	_	dsyntRel=ATTR|spos=preposition	_	2	_	adjunct	_	_	_
+5	kültürel	_	_	NN	_	dsyntRel=II|spos=NN	_	4	_	comp	_	_	_
+6	farklılıklar	_	_	NN	_	dsyntRel=II|spos=NN	_	3	_	_	_	_	_
+7	ve	_	_	NN	_	dsyntRel=II|spos=NN	_	3	_	_	_	_	_
+8	dil	_	_	NN	_	dsyntRel=II|spos=NN	_	3	_	_	_	_	_
+9	engelleri	_	_	NN	_	dsyntRel=II|spos=NN	_	3	_	_	_	_	_
+10	aşılacaktır	_	_	NN	_	dsyntRel=II|spos=NN	_	3	_	_	_	_	_
+11	.	_	_	_	_	_	_	2	_	punc	_	_	_
+
+         

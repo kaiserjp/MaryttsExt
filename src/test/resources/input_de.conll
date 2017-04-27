@@ -1,0 +1,7 @@
+1	Ich	_	_	NN	_	dsyntRel=I|spos=NN	_	2	_	subj	_	_	_
+2	würde	_	_	VB	_	thematicity=rheme|spos=VV	_	0	_	ROOT	_	_	_
+3	heute	_	_	reflexive_pronoun	_	spos=reflexive_pronoun	_	2	_	refl	_	_	_
+4	gerne	_	_	IN	_	dsyntRel=ATTR|spos=preposition	_	2	_	adjunct	_	_	_
+5	spazieren	_	_	NN	_	dsyntRel=II|spos=NN	_	4	_	comp	_	_	_
+6	gehen	_	_	NN	_	dsyntRel=II|spos=NN	_	4	_	comp	_	_	_
+7	.	_	_	_	_	_	_	2	_	punc	_	_	_

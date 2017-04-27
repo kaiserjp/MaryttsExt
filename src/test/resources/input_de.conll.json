@@ -1,0 +1,13 @@
+{
+  "text": "Ich würde heute gerne spazieren gehen .",
+  "audioFilePath": "/home/jpsanchez/repos/MaryttsExt/src/test/resources/input_de.conll.wav",
+  "duration": 0.0,
+  "valence": 0.0,
+  "arousal": 0.0,
+  "sequence": [],
+  "textTiming": [
+    [],
+    [],
+    []
+  ]
+}
