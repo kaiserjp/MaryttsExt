@@ -16,18 +16,18 @@ public class Main {
 
 	public static void doGeneration(String conllStr, String outputAudioPath, String outputJsonPath) {
 		
-		Txt2Wav mary = null;
+		Txt2WavTest mary = null;
 		try {
 			String lang = "tr";
 			
-			ConllText conll = new ConllText(conllStr);
+			//ConllText conll = new ConllText(conllStr);
 			
-			mary = new Txt2Wav(lang, conll, outputAudioPath);
+			mary = new Txt2WavTest(lang, conllStr, outputAudioPath);
 			
 			//System.out.println("El conllStr : " + conllStr);
 			//System.out.println("El conll : " + conll);
 			
-			GenerationInfo info = mary.generate(conll, outputAudioPath);
+			GenerationInfo info = mary.generate(conllStr, outputAudioPath);
 			
 			Gson gson = new GsonBuilder().setPrettyPrinting().create();
 			String jsonStr = gson.toJson(info, info.getClass());

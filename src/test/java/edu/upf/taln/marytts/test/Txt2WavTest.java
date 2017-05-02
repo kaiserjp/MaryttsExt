@@ -17,7 +17,7 @@ import marytts.exceptions.MaryConfigurationException;
 import marytts.exceptions.SynthesisException;
 import marytts.util.data.audio.MaryAudioUtils;
 
-public class Txt2Wav{
+public class Txt2WavTest{
 
     private static final String PROSMARK_TEMPLATE = "<%s %s='%s'/>";
 
@@ -28,10 +28,10 @@ public class Txt2Wav{
 	private double period_break_time = 0; // 0.5
 	private double paragraph_break_time = 0; //2
 	
-	public Txt2Wav (String lang, ConllText conll, String audioFilepath) throws MaryConfigurationException {		
+	public Txt2WavTest (String lang, String inputText, String audioFilepath) throws MaryConfigurationException {		
 		
 		// init mary
-		String inputText = conll.getText();
+		//String inputText = conll.getText();
 		
 		try {
 			mary = new LocalMaryInterface();

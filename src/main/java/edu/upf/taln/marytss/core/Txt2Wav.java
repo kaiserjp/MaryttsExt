@@ -30,8 +30,10 @@ public class Txt2Wav{
 	
 	public Txt2Wav (String lang, ConllText conll, String audioFilepath) throws MaryConfigurationException {		
 		
-		// init mary
+		// initialization of Mary
+		System.out.println("Input:" + conll);
 		String inputText = conll.getText();
+		System.out.println("text:" + inputText);
 		
 		try {
 			mary = new LocalMaryInterface();
@@ -64,7 +66,7 @@ public class Txt2Wav{
 				mary.setVoice("cmu-slt-hsmm");
 				break;					
 			}
-
+			System.out.println("Sintesis: " + inputText );
 			audio = mary.generateAudio(inputText);
 			
 		} catch (SynthesisException e) {

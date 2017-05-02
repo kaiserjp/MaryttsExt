@@ -24,8 +24,8 @@ public class Main {
 			
 			mary = new Txt2Wav(lang, conll, outputAudioPath);
 			
-			//System.out.println("El conllStr : " + conllStr);
-			//System.out.println("El conll : " + conll);
+			System.out.println("El conllStr : " + conllStr);
+			System.out.println("El conll : " + conll);
 			
 			GenerationInfo info = mary.generate(conll, outputAudioPath);
 			
